@@ -22,5 +22,16 @@ pip install flask
 python inchat.py
 ```
 
+## Installation (Kali Linux)
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip git cloudflared
+
+git clone https://github.com/Dilkhush360284/INCHAT-PHISHER.git
+cd INCHAT
+pip3 install flask
+python3 inchat.py
+```
 
 
