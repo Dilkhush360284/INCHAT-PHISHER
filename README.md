@@ -11,6 +11,10 @@ If anyone misuses this tool or uses it for any illegal activity, it is completel
 
 Use it only for learning, testing, and authorized purposes.
 
+<img width="1056" height="556" alt="INCHAT" src="https://github.com/user-attachments/assets/6d596bac-c03d-4cd2-b388-8a4ea0c31f1a" />
+
+
+
 ## Installation (Termux)
 
 ```bash
