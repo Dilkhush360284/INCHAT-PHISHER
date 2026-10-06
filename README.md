@@ -1,7 +1,7 @@
 # INCHAT-PHISHER
 An educational cybersecurity project for learning about phishing and security awareness
 
-                                              ⚠️ Disclaimer
+# ⚠️ Disclaimer
 
 This tool is made for educational and cybersecurity awareness purposes only.
 
