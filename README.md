@@ -16,9 +16,10 @@ Use it only for learning, testing, and authorized purposes.
 ```bash
 apt update
 apt install python git cloudflared 
-git clone https://github.com/Dilkhush360284/INCHAT-PHISHER.git
-cd INCHAT
 pip install flask
+git clone https://github.com/Dilkhush360284/INCHAT-PHISHER.git
+cd INCHAT-PHISHER
+cd INCHAT
 python inchat.py
 ```
 
@@ -27,10 +28,10 @@ python inchat.py
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip git cloudflared
-
-git clone https://github.com/Dilkhush360284/INCHAT-PHISHER.git
-cd INCHAT
 pip3 install flask
+git clone https://github.com/Dilkhush360284/INCHAT-PHISHER.git
+cd INCHAT-PHISHER
+cd INCHAT
 python3 inchat.py
 ```
 
