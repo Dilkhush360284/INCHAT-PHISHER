@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snap Login</title>
+  <link rel="stylesheet" href="/snapchat/style2.css">
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="login-card">
+
+      <div class="logo">👻</div>
+
+      <h1>Log In</h1>
+      <p class="subtitle">Welcome back!</p>
+
+      <!-- Flask POST form -->
+      <form method="POST">
+
+        <label for="username">Username or Email</label>
+
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username or email"
+          required
+        >
+
+        <label for="password">Password</label>
+
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        >
+
+        <a href="#" class="forgot">Forgot Password?</a>
+
+        <button type="submit">Log In</button>
+
+      </form>
+
+      <div class="divider">
+        <span>OR</span>
+      </div>
+
+      <button class="signup-btn">Create Account</button>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  width: 350px;
+}
+
+.login-box,
+.signup-box {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  text-align: center;
+}
+
+.login-box h1 {
+  font-family: cursive;
+  font-size: 42px;
+  margin-bottom: 35px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 8px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  background: #fafafa;
+  font-size: 12px;
+}
+
+form button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #0095f6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0;
+  color: #737373;
+  font-size: 12px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  height: 1px;
+  background: #dbdbdb;
+  flex: 1;
+}
+
+.facebook-login {
+  display: block;
+  color: #385185;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.forgot {
+  color: #00376b;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.signup-box {
+  margin-top: 10px;
+  padding: 25px;
+  font-size: 14px;
+}
+
+.signup-box a {
+  color: #0095f6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 450px) {
+  .login-container {
+    width: 100%;
+  }
+
+  .login-box,
+  .signup-box {
+    border: none;
+  }
+}
